@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables & API keys (STRICT EXCLUSION)
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials*.json
+service-account*.json
+
+# Audio and temporary build cache
+audio-cache/
+temp/
+backend/audio-cache/
+backend/temp/
+*.mp3
+*.wav
+*.srt
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
